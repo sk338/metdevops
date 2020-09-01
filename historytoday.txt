@@ -1,0 +1,160 @@
+    1  hostnamectl set-hostname --static ansiblemaster
+    2  vi /etc/hosts
+    3  yum install git epel-release ansible -y
+    4  yum install ansible -y
+    5  ssh-keygen
+    6  ssh-copy-id -i ~/.ssh/id_rsa.pub root@worker
+    7  exit
+    8  yum install git
+    9  git
+   10  git status
+   11  ls
+   12  cd metlifedevops
+   13  git status
+   14  ls
+   15  git add motd.yaml
+   16  git status
+   17  git init
+   18  git status
+   19  git add motd.yaml
+   20  git commit -m "first commit"
+   21  git config --global user.name "santosh"
+   22  git config --global user.email "santosh.kumar338@gmail.com"
+   23  git log
+   24  git remote add origin https://github.com/sk338/metdevops.git
+   25  cls
+   26  clear
+   27  git init
+   28  cd .\
+   29  cd  \
+   30  cd customer1
+   31  ls
+   32  cd \.
+   33  cd \
+   34  clear
+   35  lss
+   36  ls
+   37  cd metlifedevops
+   38  ls
+   39  git init
+   40  git add motd.yaml
+   41  git commit -m "first commit"
+   42  ls
+   43  git add .
+   44  git reset
+   45  git add motd.yaml
+   46  git commit -m "intial commit"
+   47  git status
+   48  git log
+   49  git remote add origin https://github.com/sk338/metdevops.git
+   50  git remote remove origin https://github.com/sk338/metdevops.git
+   51  git remote remove https://github.com/sk338/metdevops.git
+   52  git push -u origin master
+   53  .gitignore
+   54  git remote add origin https://github.com/sk338/metdevops.git
+   55  git push -u origin master
+   56  clear
+   57  history
+   58  git remote remove origin https://github.com/sk338/metdevops.git
+   59  git remote remove https://github.com/sk338/metdevops.git
+   60  git init
+   61  git add .
+   62  git reset
+   63  clear
+   64  ls
+   65  git init
+   66  git add .
+   67  git status
+   68  git add nginx.yaml
+   69  git status
+   70  git commit -m "my commit"
+   71  git config --global user.name "santosh"
+   72  git config --global user.email "santosh.kumar338@gmail.com"
+   73  git remote add origin https://github.com/sk338/metdevops.git
+   74  git push -u origin master
+   75  git remote remove origin
+   76  git push -u origin master
+   77  git status
+   78  git log
+   79  history
+   80  git remote add origin https://github.com/sk338/metdevops.git
+   81  git remote origin master
+   82  git push origin master
+   83  history
+   84  ls
+   85  cd template
+   86  ls -ls
+   87  ls
+   88  cd .\
+   89  cd \
+   90  clear
+   91  ls
+   92  cd files
+   93  ls
+   94  ls --ls
+   95  ls -ld
+   96  clear
+   97  git init
+   98  git status
+   99  git add .
+  100  git status
+  101  git commit -m "other files"
+  102  git push origin master
+  103  git push -u origin master
+  104  git remote add origin https://github.com/sk338/metdevops.git
+  105  git push -u origin master
+  106  git pull
+  107  git push -u origin master
+  108  git push --help
+  109  git branch root
+  110  git branch
+  111  git checkout root
+  112  git checkout
+  113  git branch
+  114  git push -u origin root
+  115  cd \
+  116  cd metlifedevops
+  117  ls -ld
+  118  ls
+  119  clear
+  120  ls
+  121  vi motd.yaml
+  122  git add motd.yaml
+  123  git init
+  124  git commit -m "Changes to motd file"
+  125  git push origin master
+  126  git branch
+  127  git branch -a
+  128  git push --delete root
+  129  git branch d root
+  130  git branch
+  131  ls
+  132  clear
+  133  git checkout root
+  134  git branch
+  135  git fetch
+  136  git pull
+  137  git branch
+  138  git pull root root
+  139  git fetch
+  140  git status
+  141  git branch
+  142  git branch -a
+  143  git fetch root 
+  144  history
+  145  git branch -a
+  146  git branch d root
+  147  git branch
+  148  git branch -a
+  149  git push origin --delete root
+  150  git pull
+  151  git fetch
+  152  git
+  153  git show
+  154  vi motd.yaml
+  155  git diff motd.yaml
+  156  git checkout motd.yaml
+  157  git status
+  158  git diff motd.yaml
+  159  git reflog
+  160  history > historytoday.txt
